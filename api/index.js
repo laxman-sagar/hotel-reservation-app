@@ -26,7 +26,7 @@ mongoose.connection.on("disconnected", () => {
 });
 
 //middlewares
-app.use(cors({ origin: 'localhost:3000', credentials: true }));
+app.use(cors({ origin: 'https://bookinnng.onrender.com/', credentials: true }));
 app.use(cookieParser());
 app.use(express.json());
 app.use('/api/auth', authRoute);
