@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Merriweather+Sans:ital,wght@1,300&family=Space+Mono:wght@700&display=swap');
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    height: 50px;
+    background-color: rgb(9, 22, 107);
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-container {
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.navbar-button {
+    margin-left: 20px;
+    padding: 10px 20px;
+    color: rgb(9, 22, 107);
+    border: 0;
+    cursor: pointer;
+}
