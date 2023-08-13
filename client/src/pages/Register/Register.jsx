@@ -23,7 +23,7 @@ const Register = () => {
         e.preventDefault();
         dispatch({ type: "REGISTER_START" });
         try {
-            const res = await axios.post("/auth/register", credentials);
+            const res = await axios.post("https://backend-bookiiing.onrender.com/api/auth/register", credentials);
             dispatch({ type: "REGISTER_SUCCESS", payload: res.data });
             navigate("/");
         } catch (error) {

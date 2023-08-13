@@ -3,7 +3,7 @@ import "./featured.css"
 
 const Featured = () => {
 
-    const { data, loading, err } = useFetch('/hotels/countByCity?cities=Warangal,Hyderabad,Yadagirigutta');
+    const { data, loading, err } = useFetch('https://backend-bookiiing.onrender.com/api/hotels/countByCity?cities=Warangal,Hyderabad,Yadagirigutta');
     return (
         <div className="featured">
             {loading ? "Loading please wait" : <><div className="featured-item">
